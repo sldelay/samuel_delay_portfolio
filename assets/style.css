@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 nav > div.nav-wrapper {
-    background-color: #528C83;
+    background-color: #5EC6D3;
     box-shadow: none;
     height: 5em;
 }
@@ -46,7 +46,7 @@ a.brand-logo {
 }
 
 .secondRow {
-    background-color: #C3E0D2 ;
+    background-color: #FBCBFE  ;
     padding: 1.5em;
     font-size: 1.5em; 
     border-radius: .1em;
@@ -59,9 +59,9 @@ a.brand-logo {
 }
 
 .greeting {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Permanent Marker', cursive;
     font-size: 3.5em;
-    color: #528C83; 
+    color: #E15EBD ; 
 
 }
 
@@ -73,8 +73,8 @@ a.brand-logo {
 }
 
 .page-footer {
-    height: 4em;
-    background-color:#528C83; 
+    height: 5em;
+    background-color:#5EC6D3; 
 }
 
 i.fas, i.fab{
@@ -84,6 +84,15 @@ i.fas, i.fab{
 
 span.cont {
     margin-right: 1em;
+}
+
+.topRow {
+    background-image: url("images/multicolor.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: .1em;
 }
 
 @media screen and (max-width: 992px) {
