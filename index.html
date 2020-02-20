@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Samuel Delay</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+        integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="z-depth-0">
+            <div class="nav-wrapper z-depth-0">
+                <a href="#anchor-home" class="brand-logo">Samuel Delay</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="navLink" href="#anchor-about">About</a></li>
+                    <li><a class="navLink" href="#anchor-projects">Projects</a></li>
+                    <li><a class="navLink" href="#anchor-contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#anchor-about">About</a></li>
+        <li><a href="#anchor-projects">Projects</a></li>
+        <li><a href="#anchor-contact">Contact</a></li>
+    </ul>
+
+    <div class="container" id="anchor-home">
+        <div class="row topRow">
+            <div class="greetingDiv col s12 m7 l8">
+                <h1 class="animated slideInLeft greeting"></h1>
+            </div>
+            <div class="col s12 m5 l4">
+                <img class="animated slideInRight profilePic" src="assets/images/IMG_2555.JPG" alt="Profile Picture">
+            </div>
+        </div>
+    </div>
+    <div class="container" id="anchor-about">
+        <div class="row secondRow">
+            <h1>About Me</h1>
+            <div>
+                <p>
+                    Hello, thank you for taking the time to learn about me! In 2012, I started my journey in the coffee
+                    industry. I have spent the past seven years becoming an expert in all things coffee. I now am a
+                    part-owner
+                    in a coffee shop called Union Coffee Company, based in Milford, New Hampshire.
+                </p>
+                <p>
+                    I currently live in Milford, New Hampshire with my wife and two daughters. In my free time (which is
+                    limited) I really enjoy woodworking and exploring new places.
+                </p>
+                <p>
+                    I have had a lot of fun spending all of my time in the coffee world, but I have decided to make a
+                    career
+                    move. In December of 2019, I started a full stack web development bootcamp with UNH in Portsmouth,
+                    New
+                    Hampshire. My goal is to lay down a strong foundation in my knowledge and skills as a developer and
+                    hopefully find a job in the field!
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row thirdRow" id="anchor-projects">
+        <h1 class="center">Projects</h1>
+        <div class="row">
+            <div class="col s12 m6 l5 offset-l1">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/project1.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Travel App</span>
+                        <p>This was a team project. We built an application where when a user searches for any US city,
+                            they will be presented with a packing guide, five day forecast, and events happeinging in
+                            the area.</p>
+                        <ul>
+                            <li>- Matrialze CSS</li>
+                            <li>- OpenWeatherMap API</li>
+                            <li>- OpenCage API</li>
+                            <li>- Ticketmaster API</li>
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://github.com/whoerman/Travel-App" target="_blank">Project Code</a>
+                        <a href="https://whoerman.github.io/Travel-App/" target="_blank">Live Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/weather.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Weather App</span>
+                        <p>This app allows a use to search for an US city and get back the current weather along with
+                            the five day forecast. It also utilizes local storage to save users past searches.</p>
+                        <ul>
+                            <li>- Materialize CSS</li>
+                            <li>- OpenWeatherMap API</li>
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://github.com/sldelay/weather_app" target="_blank">Project Code</a>
+                        <a href="https://sldelay.github.io/weather_app/" target="_blank">Live Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l5 offset-l1">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/codequiz.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title">Code Quiz</span>
+                    <p>This application presents the user with a series of multiple-choice questions realted to coding.
+                        When a user selects the wrong answer, time will be taken off the clock. When the user is
+                        presented with their final score they are then given the option to save their results in local
+                        storage.</p>
+                    <ul>
+                        <li>- Materialize CSS</li>
+                        <li>- Javascipt</li>
+                        <li>- jQuery</li>
+                    </ul>
+                </div>
+                <div class="card-action">
+                    <a href="https://github.com/sldelay/coding_quizHW" target="_blank">Project Code</a>
+                    <a href="https://sldelay.github.io/coding_quizHW/" target="_blank">Live Site</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l5">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/planner.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title">Workday Planner</span>
+                    <p>This application allows the user to schedule out one day of tasks. The hour rows will change
+                        color based on what the current hour is. Tasks get saved in local storage.</p>
+                    <ul>
+                        <li>- Materialize CSS</li>
+                        <li>- Moment JS</li>
+                    </ul>
+                </div>
+                <div class="card-action">
+                    <a href="https://github.com/sldelay/workday_planner" target="_blank">Project Code</a>
+                    <a href="https://sldelay.github.io/workday_planner/" target="_blank">Live Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row bottomRow" id="anchor-contact">
+        <div class="col s12 m10 offset-m1 l6 offset-l3">
+            <h1>Message Me</h1>
+            <form>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <label for="first_name">First Name</label>
+                        <input placeholder="First Name" id="first_name" type="text" class="validate">
+                    </div>
+                    <div class="col s12 m6">
+                        <label for="last_name">Last Name</label>
+                        <input placeholder="Last Name" id="last_name" type="text" class="validate">
+                    </div>
+                    <div class="col s12">
+                        <label for="email">Email</label>
+                        <input placeholder="Email" id="email" type="email" class="validate">
+                    </div>
+                    <div class="col s12">
+                        <label for="textarea1">Subject</label>
+                        <textarea placeholder="Write Something..." id="textarea1"
+                            class="materialize-textarea"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <a class="waves-effect waves-light btn submitbtn">Submit</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m6">
+            <ul class="center">
+                <li><b>Email:</b>  samuel.delay@gmail.com</li>
+                <li><b>Phone:</b>  (603) 769-0590</li>
+            </ul>
+        </div>
+        <div class="col s12 m6 center">
+            <a href="assets/ResumeSamuelDelay.pdf"><i class="fas fa-file fa-3x"></i></a></li>
+            <a href="https://www.linkedin.com/in/samuel-delay-b75244b4/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
+            <a href="https://github.com/sldelay" target="_blank"><i class="fab fa-github-square fa-3x"></i></a></li>
+        </div>
+    </div>
+
+
+
+
+    <footer class="page-footer"></footer>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
