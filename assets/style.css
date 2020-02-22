@@ -46,7 +46,7 @@ a.brand-logo {
 }
 
 .secondRow {
-    background-color: #FBCBFE  ;
+    background-color: #DFB1E1;
     padding: 1.5em;
     font-size: 1.5em; 
     border-radius: .1em;
@@ -94,6 +94,15 @@ span.cont {
     background-size: cover;
     border-radius: .1em;
 }
+
+div > a.submitbtn {
+    background-color: #DFB1E1;
+}
+
+div > a.submitbtn:hover {
+    background-color: #DDA1E1;
+}
+
 
 @media screen and (max-width: 992px) {
 
