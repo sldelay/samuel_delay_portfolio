@@ -1,113 +1,103 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-
-body {
-    font-family: 'Raleway', sans-serif;
-    background-color: white;
+section.landing {
+  height: 100vh;
+  background: linear-gradient(45deg, #dcb1b8 50%, #558b8b 50%) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+/* section.portfolio {
+  background: linear-gradient(45deg, #dcb1b8 50%, #558b8b 50%) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
 nav > div.nav-wrapper {
-    background-color: #5EC6D3;
-    box-shadow: none;
-    height: 5em;
+  background-color: #313131;
+  box-shadow: none;
 }
 
 .navLink {
-    /* color: black; */
-    font-size: 1.25em;
-    margin-right: 1em;
+  font-size: 1.25em;
+  margin-right: 1em;
 }
 
 a.brand-logo {
-    /* color: #020202 ; */
-    margin-left: 2em;
-    font-size: 2.75em;
-    margin-top: .1em;
+  margin-left: 1em;
+  font-size: 2.75em;
 }
 
-.material-icons {
-    /* color: #020202 ; */
+span.hello {
+  font-size: 10em;
+  color: white;
 }
 
-.topRow {
-    margin-top: 4em;
-    background-color: white;
-    padding: 1.5em;
+span.periodHello {
+  font-size: 10em;
+  color: #F0DB4F;
 }
 
-.profilePic {
-    width: 100%;
-    height: auto;
-    border-radius: .1em;
+span.iAm {
+  font-size: 3em;
+  color: white;
 }
 
-.intro {
+/* .container {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: .5em;
+} */
+
+div.front.container {
+  margin-top: 25vh;
+  margin-left: auto;
+}
+
+.fab {
+  margin-right: .5em;
+}
+
+.fa-html5 {
+  color: #E44D26;
+}
+
+.fa-css3-alt {
+  color: #2965f1;
+}
+
+.fa-node {
+  color: #3C873A;
+}
+
+.fa-js-square {
+  color: #F0DB4F;
+}
+
+.fa-react {
+  color: #61DBFB;
+}
+
+@media screen and (max-width: 420px) {
+
+  span.hello {
+    font-size: 5em;
+    color: white;
+  }
+
+  span.iAm {
+    font-size: 1.25em;
+    color: white;
+  }
+
+  a.brand-logo {
+    margin-left: 0;
     font-size: 1.5em;
+  }
 }
 
-.secondRow {
-    background-color: #DFB1E1;
-    padding: 1.5em;
-    font-size: 1.5em; 
-    border-radius: .1em;
-}
+@media screen and (max-width: 320px) {
 
-.thirdRow  {
-    /* background-color: #f8b400; */
-    background-color: white;
-    padding: 1em;
-}
-
-.greeting {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 3.5em;
-    color: #E15EBD ; 
-
-}
-
-.greetingDiv {
-    margin-bottom: 3em;
-    margin-top: 10%;
-    text-align: center;
-    height: 100%;
-}
-
-.page-footer {
-    height: 5em;
-    background-color:#5EC6D3; 
-}
-
-i.fas, i.fab{
-    color: black;
-    margin-right: .5em;
-}
-
-span.cont {
-    margin-right: 1em;
-}
-
-.topRow {
-    background-image: url("images/multicolor.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border-radius: .1em;
-}
-
-div > a.submitbtn {
-    background-color: #DFB1E1;
-}
-
-div > a.submitbtn:hover {
-    background-color: #DDA1E1;
-}
-
-
-@media screen and (max-width: 992px) {
-
-    a.brand-logo {
-        margin-left: 0;
-        font-size: 2em;
-    }
+  
 }
